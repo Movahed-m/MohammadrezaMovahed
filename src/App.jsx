@@ -1,6 +1,12 @@
+import Layout from "./Layout/Layout.jsx";
+import Input from "./components/modules/Input.jsx";
 
 function App() {
-   return <div></div>
+  return (
+    <Layout>
+      <Input />
+    </Layout>
+  );
 }
 
 export default App;
