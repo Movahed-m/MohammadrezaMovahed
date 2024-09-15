@@ -16,8 +16,7 @@ const Input = () => {
   };
 
   return (
-    <div className={styles.input}>
-      <label htmlFor="input">City: </label>
+    <div className={styles.inputContainer}>
       <input
         type="text"
         id="input"
