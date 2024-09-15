@@ -43,3 +43,33 @@
   background-color: transparent;
   font-family: inherit;
 }
+
+@media (max-width: 1024px) {
+  .inputContainer {
+    width: 650px;
+  }
+
+  .inputContainer p {
+    left: 123px;
+  }
+}
+
+@media (max-width:768px) {
+  .inputContainer {
+    width: 80%;
+  }
+
+  .inputContainer input {
+    width: 90%;
+  }
+
+  .inputContainer p {
+    left: 5.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  .inputContainer {
+    width: 100%;
+  }
+}
