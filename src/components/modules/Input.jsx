@@ -12,9 +12,7 @@ const Input = () => {
     setValue(userValue);
     const hint = cities.filter((city) => city.startsWith(userValue));
 
-    const random = Math.floor(Math.random() * hint.length);
-
-    userValue === "" ? setHint(null) : setHint(hint[random]);
+    userValue === "" ? setHint(null) : setHint(hint[0]);
   };
 
   return (

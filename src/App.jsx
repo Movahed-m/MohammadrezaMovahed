@@ -4,7 +4,7 @@ import Input from "./components/modules/Input.jsx";
 function App() {
   return (
     <Layout>
-      {/* <Input /> */}
+      <Input />
     </Layout>
   );
 }
